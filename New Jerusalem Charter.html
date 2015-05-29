@@ -1,0 +1,221 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>
+	Common Core State Standards Implementation Survey (CA Dept of Education)
+</title><meta content="-1" http-equiv="Expires" /><meta content="No-Cache" http-equiv="Pragma" /><meta content="No-Cache" http-equiv="Cache-Control" /><meta content="noindex, nofollow" name="robots" /><meta content="CDE, California, Child, Fiscal, Services" name="keywords" /><meta content="Child Development Fiscal Services" name="description" /><meta content="width=device-width, initial-scale=1.0" name="viewport" /><link type="image/x-icon" rel="icon" href="favicon.ico" /><link href="/css/index-ap.css" type="text/css" rel="stylesheet" id="ctl00_InternetCSSFile1" /><link href="/css/base-ap.css" type="text/css" rel="stylesheet" id="ctl00_InternetCSSFile2" /><link media="print" href="/css/print-ap.css" type="text/css" rel="stylesheet" id="ctl00_InternetCSSFile3" /><link href="default.css?2015528152822" type="text/css" rel="stylesheet" id="ctl00_DefaultCSSFile" /><link rel="stylesheet" type="text/css" href="/css/text/size75.css" media="aural,braille,embossed" title="Normal Text" /><link rel="alternate stylesheet" type="text/css" href="/css/text/size85.css" media="screen,print" title="Medium Text" /><link rel="alternate stylesheet" type="text/css" href="/css/text/size95.css" media="screen,print" title="Large Text" />
+    <script src="/scripts.js" type="text/javascript" language="javascript"></script>
+    <script src="clearresponse.js" type="text/javascript" language="javascript"></script>
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+    <script src="app.js" type="text/javascript" language="javascript"></script>
+    <script src="jquery/jtextarea.js" type="text/javascript" language="javascript"></script>
+    <script src="jquery/checkboxlist.js" type="text/javascript" language="javascript"></script>
+    <script src="jquery/jquery.maskedinput.min.js" type="text/javascript"></script>
+    <script src="jquery/jcalendar/jquery.datepick.js" type="text/javascript"></script>
+    <link href="jquery/jcalendar/jquery.datepick.css" type="text/css" rel="stylesheet" /><link href="jQuery/GridForm/gridforms.css" type="text/css" rel="stylesheet" />
+    <script src="jQuery/GridForm/gridforms.js" type="text/javascript"></script>
+    <script src="jquery/jmath.js" type="text/javascript" language="javascript"></script>
+    <script type="text/javascript">
+        //sequence of scripts: this script will run first except window.onload, then if page has $(function () {//any codes}) defined, then window.onload
+        //$(function () {//any codes}) is the jQuery document.ready event
+        var ElementToScrollTo = "";
+        var DefaultMaxLength = 1000;
+
+        window.onload = function() {
+            ScrollSmoothlyToID(ElementToScrollTo);
+
+            $.mask.definitions['~'] = "[+-]";
+            CheckBoxListCSS();
+ 
+            
+$('.phonemask').mask("999-999-9999");
+$('input:text').keypress(function(e){if ( e.which == 13 ) e.preventDefault();});
+
+    
+        };
+    </script>
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js" type="text/javascript"></script>
+    <link href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" rel="stylesheet" />
+    <script src="jquery/pleasewait/pleasewait.js" type="text/javascript"></script>
+    <link href="jquery/pleasewait/pleasewait.css" type="text/css" rel="stylesheet" />
+    <link href="ajaxcalendar.css" type="text/css" rel="stylesheet" />
+    <style type="text/css">
+        .PrintSurvey .colfloat1, .PrintSurvey .colfloat1 {
+            line-height: normal !important;
+        }
+
+        .right4px {
+            margin-right: 4px;
+        }
+
+        .col1 {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            float: left;
+            text-align: left;
+            padding-right: 8px;
+            width: 60%;
+            line-height: 1.5;
+        }
+        .col2 {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            float: left;
+            text-align: left;
+            padding-right: 0;
+            width: 40%;
+            line-height: 1.5;
+        }
+    </style>
+    <script type="text/javascript">
+        $(function () {
+            //please wait
+            AddPleaseWait($("[PID = '3']"), '', "Y", null, null);
+        });
+    </script>
+    
+</head>
+<body>
+    <div id="divTop">
+    </div>
+    <form id="aspnetForm" action="surveysave.aspx?cds=39686270000000&amp;pwd=3d2289cf-7659-4671-a91f-4ce32f4bf873&amp;pid=38" method="post">
+<div class="aspNetHidden">
+<input type="hidden" value="/wEPDwUJOTUyMzc5MDM5DxYOHghTdXJ2ZXlJRAImHg1TdXJ2ZXlMb2dvbllOBQFZHgNjZHMFDjM5Njg2MjcwMDAwMDAwHgNwd2QFJDNkMjI4OWNmLTc2NTktNDY3MS1hOTFmLTRjZTMyZjRiZjg3Mx4NUGFydGljaXBhbnRJRAKtCx4PRG9Ob3RTaG93U3VydmV5BQFZHhNWYWxpZGF0ZVJlcXVlc3RNb2RlAgEWAmYPZBYGAgEPZBYEAhEPFgIeBGhyZWYFGWRlZmF1bHQuY3NzPzIwMTU1MjgxNTI4MjJkAhgPZBYCAgEPFgIeBFRleHRlZAIDD2QWBAIBD2QWCAIBD2QWBAIBDxYCHwgFMUNvbW1vbiBDb3JlIFN0YXRlIFN0YW5kYXJkcyBJbXBsZW1lbnRhdGlvbiBTdXJ2ZXlkAgIPFgIfCGVkAgMPFgIeCWlubmVyaHRtbGVkAgUPZBYCAgEPD2QWAh4Hb25jbGljawVRamF2YXNjcmlwdDppZiAoY29uZmlybSgnQXJlIHlvdSBzdXJlIHlvdSB3YW50IHRvIGxvZ29mZj8nKT09IGZhbHNlKSByZXR1cm4gZmFsc2U7ZAILDxYCHwhlZAIDD2QWBgIBDxYCHgVjbGFzcwUKd2lkdGg3MTBweBYCAgEPZBYGAgMPFgIeB1Zpc2libGVnFg4CAQ8WAh8IBSBOZXcgSmVydXNhbGVtIEVsZW1lbnRhcnkgKFRyYWN5KWQCAw8WAh8IBQ4zOTY4NjI3MDAwMDAwMGQCBQ8WAh8IBQhEaXN0cmljdGQCBw8WAh8IBQtTYW4gSm9hcXVpbmQCCQ8WAh8IZWQCCw8WAh8IZWQCDQ8WAh8IZWQCBQ8WAh8MZ2QCBw9kFggCAw8PFgIfCGVkZAIJDw8WAh8IZWRkAhEPDxYCHwhlZGQCGQ8PFgIfCGVkZAIDDxBkZBYAZAIFDzwrABEBDBQrAABkAgcPFgIfCWVkGAEFG2N0bDAwJGJvZHlOb1dpZHRoJGd2U2VjdGlvbg9nZA8zDdXw7o0VqIcYSok5qIcSVwDj4Gkh6BfXO+McuTn4" id="__VIEWSTATE" name="__VIEWSTATE" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" value="39FC9915" id="__VIEWSTATEGENERATOR" name="__VIEWSTATEGENERATOR" />
+	<input type="hidden" value="/wEdAALBqEPApLlTI0gydFw6F9ntQAdTWrcZdi2YtjTJ/epCe5KvhE0y+y8xIvMB94MUDI6NEiGe9MHLJPgTYDdzph9M" id="__EVENTVALIDATION" name="__EVENTVALIDATION" />
+</div>
+        <div class="width750px" id="ctl00_divSetWidth1">
+            
+<div>
+    <div align="right" style="margin-top:2px">
+	<img width="102" height="18" alt="Change Text Size:" src="/images/textsize.gif" /> 
+	<a onclick="setActiveStyleSheet('Normal Text', 1);return false;" href="#">
+		<img width="18" border="0" height="18" title="Normal Text" id="NormalA" name="NormalA" alt="Normal Text" src="/images/text_sm.gif" /></a>
+	<a onclick="setActiveStyleSheet('Medium Text', 1);return false;" href="#">
+		<img width="18" border="0" height="18" title="Medium Text" id="MediumA" name="MediumA" alt="Medium Text" src="/images/text_med.gif" /></a>
+	<a onclick="setActiveStyleSheet('Large Text', 1);return false;" href="#">
+		<img width="18" border="0" height="18" title="Large Text" id="LargeA" name="LargeA" alt="Large Text" src="/images/text_lg.gif" /></a>
+</div>
+<div style="padding:5px; border-bottom:1px #6699cc solid; background:url(/images/education-pic4.gif) no-repeat; background-position:top right; height:74px; background-color:#DEEFFF;">
+	<a href="http://www.cde.ca.gov/">
+		<img width="265" border="0" height="70" align="left" alt="California Department of Education" src="/images/cdeLogoBASE2.gif" /></a>
+	<img width="332" height="72" align="right" alt="A logo depicting elements of public education. A globe, a student at school, a computer lab, and a  school bus" src="/images/education-pic1.gif" />
+</div>
+</div>
+
+    <div class="contentpadding">
+        <h1 class="aligncenter">
+            Common Core State Standards Implementation Survey</h1>
+        <h2 class="aligncenter">
+            </h2>
+    </div>
+    
+            <div class="contentpadding">
+                <div class="errormessage aligncenter" id="ctl00_DatabaseDescription"></div>
+                
+                
+                
+                
+            </div>
+        </div>
+        
+    <div class="width710px" id="ctl00_bodyNoWidth_divAll">
+        <div id="ctl00_bodyNoWidth_divSetWidth">
+            <div class="clearfloat">
+            </div>
+            
+            <div id="ctl00_bodyNoWidth_divParticipantInfo">
+                <h3>LEA Information</h3>
+                <div class="clearfloat"></div>
+                <div class="col1">
+                    <b>Name of LEA:</b>
+                    New Jerusalem Elementary (Tracy)
+                </div>
+                <div class="col2">
+                    <b>CDS Code:</b>
+                    39686270000000
+                </div>
+                <div class="clearfloat"></div>
+                <div class="col1">
+                    <b>Type of LEA:</b>
+                    District
+                </div>
+                <div class="col2">
+                    <b>County:</b>
+                    San Joaquin
+                </div>
+                <div class="clearfloat"></div>
+                <div class="col1">
+                    <b>Contact Name:</b>
+                    
+                </div>
+                <div class="col2">
+                    <b>Contact Phone:</b>
+                    
+                </div>
+                <div class="clearfloat"></div>
+                <div class="col1">
+                    <b>Contact Email:</b>
+                    
+                </div>
+                <div class="clearfloat"></div>
+            </div>
+            <div id="ctl00_bodyNoWidth_divNoSurveyForPublic">
+                <h3>Survey</h3>
+                <b>LEA has not submitted the survey.</b>
+            </div>
+            
+            
+            
+        </div>
+    </div>
+    
+    
+    <input type="hidden" id="ctl00_bodyNoWidth_hSubmit" name="ctl00$bodyNoWidth$hSubmit" />
+
+        <div class="width95pc">
+            <div class="contentpadding">
+                
+                
+            </div>
+        </div>
+        <div class="width710px">
+            
+            
+        </div>
+        <div class="width710px" id="ctl00_divSetWidth2">
+            <div id="ctl00_divSetWidth4">
+                
+            </div>
+        </div>
+    
+
+<script type="text/javascript" language="javascript">ElementToScrollTo='';</script></form>
+    <div class="width750px" id="ctl00_divSetWidth3">
+        
+    <div class="spacing">
+    </div>
+    <div id="questions">
+        Questions: Common Core Systems Implementation Office | <a href="mailto:commoncoreteam@cde.ca.gov">commoncoreteam@cde.ca.gov</a> | 916-319-0490
+    </div>
+    <div style="text-align:left; margin-bottom:7px;">
+	<p style="font-size:12px; font-family:Trebuchet MS, Arial, Helvetica, Sans-serif; color:#CC9933; line-height:18px; font-weight:bold; margin-top:0; padding-top:5px; border-top:1px solid #CC9933;">
+		California Department of Education <br />
+		1430 N Street <br />
+		Sacramento, CA 95814</p>
+	<div style="position:relative; bottom:40px; left:440px; width:100px;">
+		<a style="text-decoration:none; color:#666; font:10px Arial, Helvetica, sans-serif; letter-spacing:1px;" target="_blank" href="http://www.cde.ca.gov/re/di/ws/webpolicy.asp">
+			Web Policy</a>
+	</div>
+</div>
+    </div>
+    <div id="ctl00_divOnLoadScript"></div>
+
+
+<div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-front clsDialogWait ui-draggable" style="display: none;" tabindex="-1" role="dialog" aria-describedby="WaitDialog_undefined" aria-labelledby="ui-id-1"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span id="ui-id-1" class="ui-dialog-title">Started on 5/28/2015 5:28 PM</span><button class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-dialog-titlebar-close" role="button" aria-disabled="false" title="close"><span class="ui-button-icon-primary ui-icon ui-icon-closethick"></span><span class="ui-button-text">close</span></button></div><div id="WaitDialog_undefined" style="display: block;" class="ui-dialog-content ui-widget-content"><img src="images/busybert.gif" alt="Please wait." id="imgWait_undefined" /><p><b>Please wait.</b></p><p>Do not reload or leave this page.</p></div></div></body></html>
